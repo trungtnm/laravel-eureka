@@ -1,5 +1,5 @@
 {
-    "name": "trungtnm/laravel-eureka",
+    "name": "wjezowski/laravel-eureka",
     "description": "Eureka starter pack for Laravel",
     "keywords": [
         "wjezowski",
@@ -14,11 +14,10 @@
         "php": "^8.1",
         "ext-pcntl": "*",
         "ext-dom": "*",
-        "piwvh/php-eureka": "dev-master",
-        "illuminate/console": "^v10.10",
-        "illuminate/http": "^v10.10",
-        "illuminate/routing": "v10.10",
-        "illuminate/support": "^v10.10"
+        "illuminate/console": "~10.0",
+        "illuminate/http": "~10.0",
+        "illuminate/routing": "~10.0",
+        "illuminate/support": "~10.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
