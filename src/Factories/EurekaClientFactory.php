@@ -21,7 +21,7 @@ abstract class EurekaClientFactory
 			self::$eurekaClient = new EurekaClient([
                 'eurekaDefaultUrl' => getenv('EUREKA_SERVICE_URL'),
                 'hostName' => getenv('SERVICE_IP'),
-                'appName' => getenv('SERVICE_IP'),
+                'appName' => getenv('SERVICE_NAME'),
                 'ip' => getenv('SERVICE_IP'),
                 'port' => [getenv('SERVICE_PORT'), true],
                 'homePageUrl' => $homePageUrl,
